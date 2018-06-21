@@ -15,6 +15,10 @@ Step 6: If the last card is 3. You will have to move 10 to the right as it is bi
 
 
 
+It starts with the second element. Pick the second element to be inserted and then compare to the previous element. If the first one is bigger, move the first one to second position and second one at first. Now first and second item are sorted.
+
+Then, pick the third element and check whether the second element is bigger than the third. Keep using the same method until you hit the first element or a element smaller than the element you are comparing with. When you get an item smaller than the picked item, you insert it.
+
 
 
 
